@@ -6,6 +6,10 @@ from rest_framework.views import APIView
 from .models import Booking
 from .serializers import BookingSerializer
 
+def appointment_booking(request):
+    return render(request, 'index.html')
+
+
 AVAILABLE_SLOTS = [
     time(hour=10, minute=0), time(hour=10, minute=30),
     time(hour=11, minute=0), time(hour=11, minute=30),
