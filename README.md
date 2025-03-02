@@ -6,7 +6,7 @@ A Appointment Booking System built with Django and a reusable JavaScript fronten
 
     git clone https://github.com/Amal-Krishnanps/appointment-booking-system.git
     
-    cd appointment_system
+    cd appointment-booking-system
 
 **2. Create a Virtual Environment**
    
