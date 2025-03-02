@@ -33,3 +33,11 @@ A Appointment Booking System built with Django and a reusable JavaScript fronten
      python manage.py runserver
 
 Visit http://127.0.0.1:8000/ to access the app
+
+** Embed the Booking Plugin
+    Include the following in your webpage:
+    
+    <div id="appointment-plugin"></div>
+    <script src="appointments/static/appointments/booking-plugin.js"></script>
+
+    
