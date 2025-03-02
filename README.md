@@ -27,5 +27,9 @@ A Appointment Booking System built with Django and a reusable JavaScript fronten
 **5. Apply Migrations**
 
      python manage.py migrate
+     
+**6. Run the Development Server:
 
-Visit http://127.0.0.1:8000/
+     python manage.py runserver
+
+Visit http://127.0.0.1:8000/ to access the app
